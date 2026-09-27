@@ -24,8 +24,11 @@
 Python >=3.10
 
 安装依赖：
-```bash
+```
+bash
 pip install -r requirements.txt
-
+```
 ## 启动服务
+```
 python run_all.py
+```
