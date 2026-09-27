@@ -36,7 +36,7 @@ async def lifespan(_app: FastAPI):
     _state.clear()
 
 
-app = FastAPI(title="杭州金房科技有限公司员工手册问答服务系统", version="1.0", lifespan=lifespan)
+app = FastAPI(title="企业员工手册问答服务系统", version="1.0", lifespan=lifespan)
 
 class AskIn(BaseModel):
     question: str

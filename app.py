@@ -147,7 +147,7 @@ with st.sidebar:
 
 
 conv = st.session_state.conversations[st.session_state.current_id]
-st.title("杭州金房科技有限公司员工手册问答助手")
+st.title("员工手册问答助手")
 
 if not check_backend():
     st.warning(
